@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BLAZE — Fired Up. Every Bite.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,700;1,900&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor">🔥</div>
+
+  <!-- PRELOADER -->
+  <div class="preloader" id="preloader">
+    <div class="pl-logo">BLAZE</div>
+    <div class="pl-tagline">Fired Up. Every Bite.</div>
+    <div class="pl-bar"><div class="pl-fill" id="plFill"></div></div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">
+      <span class="logo-flame">🔥</span>
+      <span class="logo-text">BLAZE</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#menu" class="nl">Menu</a></li>
+      <li><a href="#about" class="nl">Our Story</a></li>
+      <li><a href="#delivery" class="nl">Delivery</a></li>
+      <li><a href="#contact" class="nl">Find Us</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#reservation" class="btn-nav-outline">Reserve Table</a>
+      <a href="#delivery" class="btn-nav-fill">Order Now</a>
+    </div>
+    <button class="burger" id="burger"><span></span><span></span></button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mob-menu" id="mobMenu">
+    <a href="#menu" class="mob-link">Menu</a>
+    <a href="#about" class="mob-link">Our Story</a>
+    <a href="#delivery" class="mob-link">Delivery</a>
+    <a href="#contact" class="mob-link">Find Us</a>
+    <a href="#delivery" class="mob-cta">Order Now 🔥</a>
+  </div>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="fire-orb f1"></div>
+      <div class="fire-orb f2"></div>
+      <div class="fire-orb f3"></div>
+      <div class="hero-grid"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hb-dot"></span>
+        Now Open · Dine-in & Delivery
+      </div>
+      <h1 class="hero-title">
+        <span class="ht-top">THE BOLDEST</span>
+        <span class="ht-main">BURGERS</span>
+        <span class="ht-sub">ON THE <em>PLANET</em></span>
+      </h1>
+      <p class="hero-desc">
+        Smashed, seared, and stacked with flavors that hit hard.
+        BLAZE is where fire meets flavour — crafted for the bold,
+        served for the hungry.
+      </p>
+      <div class="hero-ctas">
+        <a href="#menu" class="btn-fire">
+          <span>Explore Menu</span>
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9h10M10 5l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#delivery" class="btn-ghost">Order Delivery</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hs-item">
+          <span class="hs-num">50+</span>
+          <span class="hs-label">Menu Items</span>
+        </div>
+        <div class="hs-sep"></div>
+        <div class="hs-item">
+          <span class="hs-num">4.9★</span>
+          <span class="hs-label">Rating</span>
+        </div>
+        <div class="hs-sep"></div>
+        <div class="hs-item">
+          <span class="hs-num">20min</span>
+          <span class="hs-label">Avg Delivery</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="burger-showcase">
+        <div class="bs-glow"></div>
+        <div class="bs-ring r1"></div>
+        <div class="bs-ring r2"></div>
+        <div class="bs-ring r3"></div>
+        <div class="bs-emoji">🍔</div>
+        <div class="bs-sparks">
+          <span class="spark s1">✦</span>
+          <span class="spark s2">✦</span>
+          <span class="spark s3">✦</span>
+          <span class="spark s4">🔥</span>
+          <span class="spark s5">✦</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-arrow">
+      <span>↓</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════ MARQUEE ═══════════════ -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Smash Burgers</span><span class="sep">✦</span>
+      <span>BBQ Grills</span><span class="sep">✦</span>
+      <span>Loaded Fries</span><span class="sep">✦</span>
+      <span>Crispy Wings</span><span class="sep">✦</span>
+      <span>Thick Shakes</span><span class="sep">✦</span>
+      <span>Fire Sauces</span><span class="sep">✦</span>
+      <span>Fresh Daily</span><span class="sep">✦</span>
+      <span>Smash Burgers</span><span class="sep">✦</span>
+      <span>BBQ Grills</span><span class="sep">✦</span>
+      <span>Loaded Fries</span><span class="sep">✦</span>
+      <span>Crispy Wings</span><span class="sep">✦</span>
+      <span>Thick Shakes</span><span class="sep">✦</span>
+      <span>Fire Sauces</span><span class="sep">✦</span>
+      <span>Fresh Daily</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════ MENU ═══════════════ -->
+  <section id="menu" class="section">
+    <div class="section-head reveal">
+      <div class="sec-eyebrow">— Our Menu</div>
+      <h2 class="sec-title">What's <span>Hot</span> Today</h2>
+      <p class="sec-sub">Every item crafted with fire, precision, and zero compromise.</p>
+    </div>
+
+    <!-- MENU TABS -->
+    <div class="menu-tabs reveal">
+      <button class="mtab active" data-cat="burgers">🍔 Burgers</button>
+      <button class="mtab" data-cat="grills">🥩 Grills</button>
+      <button class="mtab" data-cat="sides">🍟 Sides</button>
+      <button class="mtab" data-cat="drinks">🥤 Drinks</button>
+      <button class="mtab" data-cat="desserts">🍨 Desserts</button>
+    </div>
+
+    <!-- MENU GRID -->
+    <div class="menu-grid" id="menuGrid">
+
+      <!-- BURGERS -->
+      <div class="menu-card" data-cat="burgers">
+        <div class="mc-badge hot">🔥 Best Seller</div>
+        <div class="mc-emoji">🍔</div>
+        <div class="mc-info">
+          <h3 class="mc-name">The BLAZE Classic</h3>
+          <p class="mc-desc">Double smash patty, cheddar, BLAZE sauce, pickles, caramelised onions</p>
+          <div class="mc-footer">
+            <span class="mc-price">$12.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="burgers">
+        <div class="mc-badge spicy">🌶 Spicy</div>
+        <div class="mc-emoji">🍔</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Inferno Stack</h3>
+          <p class="mc-desc">Triple patty, ghost pepper sauce, jalapeños, habanero cheese, crispy shallots</p>
+          <div class="mc-footer">
+            <span class="mc-price">$16.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="burgers">
+        <div class="mc-emoji">🍔</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Smoky BBQ Melt</h3>
+          <p class="mc-desc">Beef patty, pulled pork, smoked BBQ, coleslaw, monterey jack cheese</p>
+          <div class="mc-footer">
+            <span class="mc-price">$14.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="burgers">
+        <div class="mc-badge new">✨ New</div>
+        <div class="mc-emoji">🍔</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Gold Rush Burger</h3>
+          <p class="mc-desc">Wagyu beef, truffle aioli, gold onion rings, aged cheddar, brioche bun</p>
+          <div class="mc-footer">
+            <span class="mc-price">$19.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- GRILLS -->
+      <div class="menu-card" data-cat="grills" style="display:none">
+        <div class="mc-badge hot">🔥 Popular</div>
+        <div class="mc-emoji">🥩</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Ribeye Platter</h3>
+          <p class="mc-desc">300g charcoal ribeye, chimichurri, roasted garlic potatoes, grilled corn</p>
+          <div class="mc-footer">
+            <span class="mc-price">$28.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="grills" style="display:none">
+        <div class="mc-emoji">🍗</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Flame Chicken Rack</h3>
+          <p class="mc-desc">Half chicken, jerk marinade, grilled pineapple salsa, steamed rice</p>
+          <div class="mc-footer">
+            <span class="mc-price">$18.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="grills" style="display:none">
+        <div class="mc-emoji">🌽</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Mixed Grill Board</h3>
+          <p class="mc-desc">Lamb chops, beef skewers, merguez sausage, grilled veggies, flatbread & dips</p>
+          <div class="mc-footer">
+            <span class="mc-price">$34.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="grills" style="display:none">
+        <div class="mc-badge new">✨ New</div>
+        <div class="mc-emoji">🥩</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Surf & Turf</h3>
+          <p class="mc-desc">Sirloin steak + tiger prawns, lemon butter, sweet potato mash, greens</p>
+          <div class="mc-footer">
+            <span class="mc-price">$39.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SIDES -->
+      <div class="menu-card" data-cat="sides" style="display:none">
+        <div class="mc-badge hot">🔥 Must Try</div>
+        <div class="mc-emoji">🍟</div>
+        <div class="mc-info">
+          <h3 class="mc-name">BLAZE Loaded Fries</h3>
+          <p class="mc-desc">Thick-cut fries, BLAZE cheese sauce, jalapeños, crispy bacon bits, spring onion</p>
+          <div class="mc-footer">
+            <span class="mc-price">$8.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="sides" style="display:none">
+        <div class="mc-emoji">🍗</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Crispy Wings (6pc)</h3>
+          <p class="mc-desc">Choose: Buffalo · Honey Garlic · Lemon Pepper · Smoky BBQ</p>
+          <div class="mc-footer">
+            <span class="mc-price">$9.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="sides" style="display:none">
+        <div class="mc-emoji">🧅</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Onion Ring Tower</h3>
+          <p class="mc-desc">Beer-battered golden rings, sriracha mayo dipping sauce</p>
+          <div class="mc-footer">
+            <span class="mc-price">$6.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="sides" style="display:none">
+        <div class="mc-emoji">🥗</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Fire Slaw</h3>
+          <p class="mc-desc">Shredded cabbage, carrots, chilli lime dressing, toasted sesame</p>
+          <div class="mc-footer">
+            <span class="mc-price">$5.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- DRINKS -->
+      <div class="menu-card" data-cat="drinks" style="display:none">
+        <div class="mc-badge hot">🔥 Fan Fave</div>
+        <div class="mc-emoji">🥤</div>
+        <div class="mc-info">
+          <h3 class="mc-name">BLAZE Thick Shake</h3>
+          <p class="mc-desc">Choose: Chocolate Lava · Vanilla Storm · Strawberry Blaze · Salted Caramel</p>
+          <div class="mc-footer">
+            <span class="mc-price">$7.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="drinks" style="display:none">
+        <div class="mc-emoji">🍺</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Craft Sodas</h3>
+          <p class="mc-desc">House-brewed: Ginger Flame · Citrus Burst · Berry Riot · Classic Cola</p>
+          <div class="mc-footer">
+            <span class="mc-price">$4.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="drinks" style="display:none">
+        <div class="mc-emoji">☕</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Iced Blaze Coffee</h3>
+          <p class="mc-desc">Cold brew, caramel drizzle, whipped cream, cinnamon dust</p>
+          <div class="mc-footer">
+            <span class="mc-price">$5.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="drinks" style="display:none">
+        <div class="mc-emoji">🧃</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Fresh Juice Bar</h3>
+          <p class="mc-desc">Freshly pressed daily: Mango Madness · Tropical Inferno · Green Machine</p>
+          <div class="mc-footer">
+            <span class="mc-price">$5.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESSERTS -->
+      <div class="menu-card" data-cat="desserts" style="display:none">
+        <div class="mc-badge hot">🔥 Obsession</div>
+        <div class="mc-emoji">🍨</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Molten Lava Cake</h3>
+          <p class="mc-desc">Dark chocolate eruption, vanilla bean ice cream, caramel lace, gold dust</p>
+          <div class="mc-footer">
+            <span class="mc-price">$8.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="desserts" style="display:none">
+        <div class="mc-emoji">🍦</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Smash Cookie Sundae</h3>
+          <p class="mc-desc">Warm cookie dough, 2-scoop ice cream, hot fudge, whipped cream, sprinkles</p>
+          <div class="mc-footer">
+            <span class="mc-price">$9.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="desserts" style="display:none">
+        <div class="mc-badge new">✨ New</div>
+        <div class="mc-emoji">🧇</div>
+        <div class="mc-info">
+          <h3 class="mc-name">Fire Waffle Stack</h3>
+          <p class="mc-desc">Crispy waffles, spiced maple syrup, fried chicken strip, banana, cream</p>
+          <div class="mc-footer">
+            <span class="mc-price">$11.99</span>
+            <button class="mc-add">+ Add</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section id="about" class="section section-dark">
+    <div class="about-wrap">
+      <div class="about-left reveal">
+        <div class="sec-eyebrow">— Our Story</div>
+        <h2 class="sec-title">Born from <span>Fire.</span><br/>Built for Flavour.</h2>
+        <p class="about-body">
+          BLAZE started with one obsession: making the world's most satisfying burger.
+          No shortcuts. No frozen patties. Every order smashed to order on a screaming-hot flat iron,
+          seared with intention, layered with flavour that hits from the first bite to the last.
+        </p>
+        <p class="about-body">
+          We source globally — premium beef, hand-picked spices, artisan buns baked fresh daily.
+          Whether you're dining in or ordering to your door, BLAZE delivers the same uncompromising
+          standard every single time.
+        </p>
+        <div class="about-vals">
+          <div class="av-item">
+            <span class="av-icon">🥩</span>
+            <div>
+              <strong>100% Fresh Beef</strong>
+              <p>Never frozen. Always smashed to order.</p>
+            </div>
+          </div>
+          <div class="av-item">
+            <span class="av-icon">🌍</span>
+            <div>
+              <strong>Global Ingredients</strong>
+              <p>Sourced from the world's best producers.</p>
+            </div>
+          </div>
+          <div class="av-item">
+            <span class="av-icon">⚡</span>
+            <div>
+              <strong>Fast. Always.</strong>
+              <p>Dine-in or delivery — under 20 minutes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-right reveal">
+        <div class="about-visual-grid">
+          <div class="avg-big">
+            <div class="avg-emoji">🔥</div>
+            <div class="avg-label">Fired Up Daily</div>
+          </div>
+          <div class="avg-sm top">
+            <div class="avg-emoji">🥩</div>
+            <div class="avg-label">Fresh Cuts</div>
+          </div>
+          <div class="avg-sm bot">
+            <div class="avg-emoji">🏆</div>
+            <div class="avg-label">Award Winning</div>
+          </div>
+        </div>
+        <div class="about-badge-wrap">
+          <div class="ab-badge">
+            <span class="ab-num">50K+</span>
+            <span class="ab-lbl">Happy Customers</span>
+          </div>
+          <div class="ab-badge">
+            <span class="ab-num">4.9</span>
+            <span class="ab-lbl">Average Rating</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ DELIVERY ═══════════════ -->
+  <section id="delivery" class="section">
+    <div class="delivery-wrap">
+      <div class="delivery-left reveal">
+        <div class="sec-eyebrow">— Order Now</div>
+        <h2 class="sec-title">Delivered<br/><span>Hot & Fast</span></h2>
+        <p class="del-body">
+          BLAZE delivers to your door in 20 minutes or less. Track your order live,
+          choose your sauces, and get exactly what you want — every time.
+        </p>
+        <div class="del-platforms">
+          <a href="#" class="dp-btn">
+            <span class="dp-icon">📱</span>
+            <div class="dp-text">
+              <span class="dp-small">Order on</span>
+              <span class="dp-big">BLAZE App</span>
+            </div>
+          </a>
+          <a href="#" class="dp-btn secondary">
+            <span class="dp-icon">🛵</span>
+            <div class="dp-text">
+              <span class="dp-small">Also on</span>
+              <span class="dp-big">Uber Eats</span>
+            </div>
+          </a>
+          <a href="#" class="dp-btn secondary">
+            <span class="dp-icon">🍽️</span>
+            <div class="dp-text">
+              <span class="dp-small">Also on</span>
+              <span class="dp-big">DoorDash</span>
+            </div>
+          </a>
+        </div>
+        <div class="del-perks">
+          <span class="dp-perk">✅ Free delivery over $25</span>
+          <span class="dp-perk">✅ Live order tracking</span>
+          <span class="dp-perk">✅ 20-min guarantee</span>
+        </div>
+      </div>
+      <div class="delivery-right reveal">
+        <div class="delivery-card">
+          <div class="dc-header">Your Order 🔥</div>
+          <div class="dc-items">
+            <div class="dc-item">
+              <span class="dci-name">BLAZE Classic x2</span>
+              <span class="dci-price">$25.98</span>
+            </div>
+            <div class="dc-item">
+              <span class="dci-name">Loaded Fries</span>
+              <span class="dci-price">$8.99</span>
+            </div>
+            <div class="dc-item">
+              <span class="dci-name">Thick Shake x2</span>
+              <span class="dci-price">$15.98</span>
+            </div>
+          </div>
+          <div class="dc-divider"></div>
+          <div class="dc-item total">
+            <span>Total</span>
+            <span>$50.95</span>
+          </div>
+          <div class="dc-delivery-tag">🚀 FREE Delivery Unlocked!</div>
+          <button class="dc-btn">Checkout →</button>
+          <div class="dc-eta">
+            <span class="eta-dot"></span>
+            Estimated: <strong>18 min</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+  <section id="reviews" class="section section-dark">
+    <div class="section-head reveal">
+      <div class="sec-eyebrow">— Reviews</div>
+      <h2 class="sec-title">The People <span>Love It</span></h2>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"The Inferno Stack literally changed my life. I've tried burgers in NYC, London, Tokyo — BLAZE hits different. Nothing compares."</p>
+        <div class="rc-author">
+          <div class="rc-avatar">JM</div>
+          <div>
+            <div class="rc-name">James M.</div>
+            <div class="rc-role">Food Blogger · London</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"Ordered delivery at 11pm. Arrived in 17 minutes, still piping hot. The loaded fries are an experience. Absolutely unreal."</p>
+        <div class="rc-author">
+          <div class="rc-avatar">SA</div>
+          <div>
+            <div class="rc-name">Sofia A.</div>
+            <div class="rc-role">Regular Customer · Dubai</div>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"The Gold Rush Burger is worth every penny. This is what fast food should be — premium, fast, and absolutely delicious."</p>
+        <div class="rc-author">
+          <div class="rc-avatar">KT</div>
+          <div>
+            <div class="rc-name">Kofi T.</div>
+            <div class="rc-role">First-Time Customer · Accra</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ RESERVATION ═══════════════ -->
+  <section id="reservation" class="section">
+    <div class="res-wrap">
+      <div class="res-left reveal">
+        <div class="sec-eyebrow">— Book a Table</div>
+        <h2 class="sec-title">Reserve Your<br/><span>BLAZE Experience</span></h2>
+        <p class="res-body">
+          Dine-in and experience BLAZE the way it's meant to be —
+          live fire kitchen, full atmosphere, and table service.
+          Book your spot now.
+        </p>
+        <div class="res-hours">
+          <div class="rh-item">
+            <span class="rh-day">Mon — Fri</span>
+            <span class="rh-time">11:00 AM – 11:00 PM</span>
+          </div>
+          <div class="rh-item">
+            <span class="rh-day">Sat — Sun</span>
+            <span class="rh-time">10:00 AM – 12:00 AM</span>
+          </div>
+        </div>
+      </div>
+      <div class="res-right reveal">
+        <div class="res-form">
+          <h3 class="rf-title">Make a Reservation</h3>
+          <div class="rf-field">
+            <label>Full Name</label>
+            <input type="text" placeholder="e.g. John Smith"/>
+          </div>
+          <div class="rf-row">
+            <div class="rf-field">
+              <label>Date</label>
+              <input type="date"/>
+            </div>
+            <div class="rf-field">
+              <label>Time</label>
+              <select>
+                <option>12:00 PM</option>
+                <option>1:00 PM</option>
+                <option>2:00 PM</option>
+                <option>6:00 PM</option>
+                <option>7:00 PM</option>
+                <option>8:00 PM</option>
+                <option>9:00 PM</option>
+              </select>
+            </div>
+          </div>
+          <div class="rf-field">
+            <label>Guests</label>
+            <select>
+              <option>1 Guest</option>
+              <option>2 Guests</option>
+              <option>3 Guests</option>
+              <option>4 Guests</option>
+              <option>5+ Guests</option>
+            </select>
+          </div>
+          <button class="rf-btn">Confirm Reservation 🔥</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT / FIND US ═══════════════ -->
+  <section id="contact" class="section section-dark">
+    <div class="section-head reveal">
+      <div class="sec-eyebrow">— Find Us</div>
+      <h2 class="sec-title">Come Get <span>Fired Up</span></h2>
+    </div>
+    <div class="contact-grid">
+      <div class="cg-card reveal">
+        <div class="cgc-icon">📍</div>
+        <h3>Location</h3>
+        <p>12 Blaze Street, Central District<br/>Freetown, Sierra Leone</p>
+        <a href="#" class="cgc-link">Get Directions →</a>
+      </div>
+      <div class="cg-card reveal">
+        <div class="cgc-icon">📞</div>
+        <h3>Call Us</h3>
+        <p>+232 XX XXX XXXX<br/>Lines open daily 10am–midnight</p>
+        <a href="tel:+232XXXXXXXX" class="cgc-link">Call Now →</a>
+      </div>
+      <div class="cg-card reveal">
+        <div class="cgc-icon">📧</div>
+        <h3>Email</h3>
+        <p>hello@blazeburger.com<br/>We reply within 2 hours</p>
+        <a href="mailto:hello@blazeburger.com" class="cgc-link">Email Us →</a>
+      </div>
+      <div class="cg-card reveal">
+        <div class="cgc-icon">📱</div>
+        <h3>Follow Us</h3>
+        <p>@blazeburger on all platforms<br/>Tag us for a free sauce!</p>
+        <a href="#" class="cgc-link">Follow @blazeburger →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer>
+    <div class="footer-top">
+      <div class="ft-brand">
+        <div class="ft-logo">🔥 BLAZE</div>
+        <p class="ft-slogan">Fired Up. Every Bite.</p>
+      </div>
+      <div class="ft-links">
+        <div class="ftl-col">
+          <span class="ftl-head">Menu</span>
+          <a href="#menu">Burgers</a>
+          <a href="#menu">Grills</a>
+          <a href="#menu">Sides</a>
+          <a href="#menu">Drinks</a>
+        </div>
+        <div class="ftl-col">
+          <span class="ftl-head">Visit</span>
+          <a href="#reservation">Reserve Table</a>
+          <a href="#delivery">Order Delivery</a>
+          <a href="#contact">Find Us</a>
+        </div>
+        <div class="ftl-col">
+          <span class="ftl-head">Social</span>
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 BLAZE Restaurant. All Rights Reserved.</span>
+      <span>Designed with 🔥 by Abdulai Bah</span>
+    </div>
+  </footer>
+
+  <script>
+  /* PRELOADER */
+  window.addEventListener('load', function() {
+    var fill = document.getElementById('plFill');
+    var loader = document.getElementById('preloader');
+    var w = 0;
+    var t = setInterval(function() {
+      w += 5;
+      fill.style.width = w + '%';
+      if (w >= 100) {
+        clearInterval(t);
+        setTimeout(function() { loader.classList.add('done'); }, 300);
+      }
+    }, 18);
+  });
+
+  /* CURSOR */
+  var cur = document.getElementById('cursor');
+  document.addEventListener('mousemove', function(e) {
+    cur.style.left = e.clientX + 'px';
+    cur.style.top  = e.clientY + 'px';
+  });
+
+  /* NAV */
+  var nav = document.getElementById('nav');
+  window.addEventListener('scroll', function() {
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+  });
+
+  /* BURGER MENU */
+  var burger = document.getElementById('burger');
+  var mobMenu = document.getElementById('mobMenu');
+  burger.addEventListener('click', function() {
+    burger.classList.toggle('open');
+    mobMenu.classList.toggle('open');
+  });
+  document.querySelectorAll('.mob-link, .mob-cta').forEach(function(l) {
+    l.addEventListener('click', function() {
+      burger.classList.remove('open');
+      mobMenu.classList.remove('open');
+    });
+  });
+
+  /* MENU TABS */
+  var tabs = document.querySelectorAll('.mtab');
+  var cards = document.querySelectorAll('.menu-card');
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      tabs.forEach(function(t) { t.classList.remove('active'); });
+      tab.classList.add('active');
+      var cat = tab.dataset.cat;
+      cards.forEach(function(card) {
+        if (card.dataset.cat === cat) {
+          card.style.display = 'flex';
+          card.style.animation = 'card-pop .35s ease forwards';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  /* SCROLL REVEAL */
+  var reveals = document.querySelectorAll('.reveal');
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e, i) {
+      if (e.isIntersecting) {
+        setTimeout(function() { e.target.classList.add('visible'); }, i * 100);
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08 });
+  reveals.forEach(function(el) { obs.observe(el); });
+
+  /* ADD BUTTON */
+  document.querySelectorAll('.mc-add').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var orig = btn.textContent;
+      btn.textContent = '✓ Added!';
+      btn.style.background = '#22c55e';
+      btn.style.color = '#fff';
+      setTimeout(function() {
+        btn.textContent = orig;
+        btn.style.background = '';
+        btn.style.color = '';
+      }, 1500);
+    });
+  });
+  </script>
+</body>
+</html>
